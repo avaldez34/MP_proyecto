@@ -1,0 +1,32 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap');
+
+:root{
+    --padding-container:100px 0;
+    --color-title: #5BBFF0;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.container{
+    width: 99%;
+    max-width: 1500px;
+    margin: 0 auto;
+    overflow: hidden;
+    background-color: #6596E6;
+    padding: var(--padding-container);
+}
+
+.hero{
+    width: 100%;
+    height: 100vh;
+    min-height: 600;
+    max-height: 800;
+    position: relative;
+    display: grid;
+    grid-template-rows: 100px 1fr;
+}
+
+.nav{
+    --padding-container: 0;
+}
