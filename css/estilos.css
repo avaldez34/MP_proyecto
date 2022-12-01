@@ -30,3 +30,23 @@ body{
 .nav{
     --padding-container: 0;
 }
+.vis{
+    width: 100%;
+    height: 100vh;
+    
+}
+
+.button {
+    /* Alinear los botones con los campos de texto */
+    
+    padding-left: 90px; /* mismo tamaño que los elementos de la etiqueta */
+  }
+  
+
+
+  button {
+    /* Este margen adicional representa aproximadamente el mismo espacio que el espacio
+       entre las etiquetas y sus campos de texto */
+       color: #6596E6;
+        margin-left: .5em;
+  }
